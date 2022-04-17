@@ -34,7 +34,7 @@ r = c;
 r(randIndex)=~r(randIndex)   % make an error in the received signal
  
 %% decode recieved signal
-%cdecoded = hardDecoding(r,H,10)
+cdecoded = hardDecoding(r,H,10)
 
 
 
