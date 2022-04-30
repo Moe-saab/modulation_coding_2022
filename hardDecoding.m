@@ -1,6 +1,5 @@
  function v_nodes = hardDecoding(r,H, max_iterations)
 
-    % H = N-K*N = r*c
 [K,N] = size(H);
 
 v_nodes=r; %initially variable nodes take values from the received vector
